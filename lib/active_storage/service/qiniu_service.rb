@@ -107,13 +107,8 @@ module ActiveStorage
 
     def url(key, **options)
       instrument :url, key: key do |payload|
-        fop = if options[:fop].present?        # 内容预处理
-                options[:fop]
-              elsif options[:disposition].to_s == 'attachment' # 下载附件
-                attname = URI.escape "#{options[:filename] || key}"
-                "attname=#{attname}"
-              end
-
+        fop = 'imageView2/1/w/100/h/100'
+        
         url = if bucket_private
                 expires_in = options[:expires_in] || url_expires_in
                 Qiniu::Auth.authorize_download_url_2(domain, key, schema: protocol, fop: fop, expires_in: expires_in)
