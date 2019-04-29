@@ -107,7 +107,7 @@ module ActiveStorage
 
     def url(key, **options)
       instrument :url, key: key do |payload|
-        fop = 'imageView2/1/w/100/h/100'
+        fop = 'imageView2/1/w/400/h/400'
         
         url = if bucket_private
                 expires_in = options[:expires_in] || url_expires_in
