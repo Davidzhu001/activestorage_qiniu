@@ -107,7 +107,15 @@ module ActiveStorage
 
     def url(key, **options)
       instrument :url, key: key do |payload|
-        fop = 'imageView2/1/w/400/h/400/auto-orient'
+              fop = if options[:fop].present?        # 内容预处理
+                options[:fop]
+              elsif options[:disposition].to_s == 'attachment' # 下载附件
+                attname = URI.escape "#{options[:filename] || key}"
+                "attname=#{attname}"
+              end
+                      fop ||= 'imageView2/1/w/400/h/400/auto-orient'
+
+      
         
         url = if bucket_private
                 expires_in = options[:expires_in] || url_expires_in
