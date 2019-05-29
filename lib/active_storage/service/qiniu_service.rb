@@ -113,7 +113,7 @@ module ActiveStorage
                 attname = URI.escape "#{options[:filename] || key}"
                 "attname=#{attname}"
               end
-                      fop ||= 'imageView2/1/w/400/h/400/auto-orient'
+                      fop ||= 'imageView2/1/w/800/h/800/auto-orient'
 
       
         
