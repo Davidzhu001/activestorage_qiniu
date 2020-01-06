@@ -2,7 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="38a1da8d-fff5-4b4a-b43a-09a667cc8077" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/lib/active_storage/service/qiniu_service.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/active_storage/service/qiniu_service.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.rakeTasks" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/activestorage_qiniu.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/activestorage_qiniu.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activestorage_qiniu.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/activestorage_qiniu.gemspec" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/activestorage_qiniu/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/activestorage_qiniu/version.rb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,28 +15,11 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/active_storage/service/qiniu_service.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="442">
-              <caret line="114" column="17" selection-start-line="114" selection-start-column="17" selection-end-line="114" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+  <component name="FavoritesManager">
+    <favorites_list name="activestorage_qiniu" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/lib/active_storage/service/qiniu_service.rb" />
-      </list>
-    </option>
   </component>
   <component name="ProjectConfigurationFiles">
     <option name="files">
@@ -49,49 +37,7 @@
     <option name="width" value="1680" />
     <option name="height" value="946" />
   </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="activestorage_qiniu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="activestorage_qiniu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="activestorage_qiniu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="activestorage_qiniu" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="activestorage_qiniu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="activestorage_qiniu" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="active_storage" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="activestorage_qiniu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="activestorage_qiniu" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="active_storage" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="activestorage_qiniu" type="b2602c69:ProjectViewProjectNode" />
-              <item name="activestorage_qiniu" type="462c0819:PsiDirectoryNode" />
-              <item name="lib" type="462c0819:PsiDirectoryNode" />
-              <item name="activestorage_qiniu" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
-  </component>
+  <component name="ProjectId" id="1W2KJd88w7akOoCgnrrbGZ8QXbi" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -109,7 +55,7 @@
       </list>
     </option>
   </component>
-  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" />
+  <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="false" RAILS_SPRING_PRE_LOADER_OPTION="false" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -121,47 +67,22 @@
       <option name="presentableId" value="Default" />
       <updated>1560336536413</updated>
       <workItem from="1560336537728" duration="470000" />
+      <workItem from="1578342180009" duration="381000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="470000" />
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="946" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/active_storage/service/qiniu_service.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="114" column="17" selection-start-line="114" selection-start-column="17" selection-end-line="114" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
